@@ -1,0 +1,19 @@
+@import "./abstract/functions";
+@import "./abstract/_mixins.scss";
+@import "./abstract/var";
+
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/uitility";
+
+@import "./components/buttons";
+@import "./components/slider";
+@import "./components/navbar.scss";
+@import "./components/bg-fixed";
+
+@import './pages/home';
+@import './pages/footer';
+@import './pages/about';
+@import './pages/services';
+@import './pages/blogs';

@@ -1,0 +1,21 @@
+.features {
+    &-title {
+        top: -10px;
+        left: 10px;
+        position: relative;
+
+    }
+}
+
+.feq {
+    .accordion {
+        .card {
+            background-color: transparent;
+        }
+
+        button {
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.gallary-img-link {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+
+    >img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.about-img {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+
+    >img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.news {
+    .form-inline input {
+        margin: 0 10px;
+    }
+
+    .btn {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news {
+        .form-inline input {
+            margin: 0 0 20px 0;
+            width: 100%;
+        }
+
+        .btn {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
